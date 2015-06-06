@@ -305,9 +305,11 @@ table {
   /* Sin bold en Mac. */
 }
 
-.contenido {
-  background: #666666;
-  width: 200px;
-  height: 200px;
-  font-family: pt_sansregular;
+header {
+  height: 135px;
+  border: 1px solid #ccc;
+}
+header .superiorheader {
+  height: 35px;
+  background: #2f2f2f;
 }
