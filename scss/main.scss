@@ -4,3 +4,10 @@
 @import 'normalize.min';
 @import 'fuentes';
 @import 'ayudas';
+
+.contenido{
+	background:$colorcontenido;
+	width: 200px;
+	height: 200px;	
+	font-family: $ptsans_regular;
+}
