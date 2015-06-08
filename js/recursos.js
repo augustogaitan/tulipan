@@ -36,8 +36,10 @@ conditionizr.polyfill('js/min/placeholders.min.js', ['ie9','ie8']);
    . Recursos 
    ========================================================================== */
 
-/*@prepros-append min/jquery-1.10.2.min.js
-@prepros-append min/jquery-ui-1.10.4.custom.min.js
+//@prepros-append min/jquery-1.10.2.min.js
+//@prepros-append min/jquery.bxslider.min.js
+/*@prepros-append min/jquery-ui-1.10.4.custom.min.js
+
 @prepros-append min/jquery.backstretch.min.js
 @prepros-append min/jquery.colorbox.min.js
 @prepros-append min/jquery.customSelect.min.js

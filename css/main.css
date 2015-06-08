@@ -306,10 +306,123 @@ table {
 }
 
 header {
-  height: 135px;
+  height: 113px;
   border: 1px solid #ccc;
 }
 header .superiorheader {
   height: 35px;
   background: #2f2f2f;
+}
+header .superiorheader .contteldir {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 34px;
+}
+header .superiorheader .contteldir span.telefono {
+  font-family: montserratbold;
+  color: #fff;
+  margin-right: 15px;
+  float: left;
+}
+header .superiorheader .contteldir span.telefono:before {
+  content: url("../images/header/fono.png");
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+header .superiorheader .contteldir span.direccion {
+  font-family: montserratregular;
+  color: #777777;
+  margin-left: 15px;
+  float: left;
+}
+header .superiorheader .contteldir span.direccion:before {
+  content: url("../images/header/ubicacion.png");
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+header .superiorheader nav.superior {
+  float: right;
+  color: #777777;
+  font-family: montserratregular;
+}
+header .superiorheader nav.superior ul li {
+  float: left;
+}
+header .superiorheader nav.superior ul li a {
+  padding: 0 12px;
+}
+header .inferiorheader {
+  font-family: montserratregular;
+  height: 78px;
+  line-height: 78px;
+}
+header .inferiorheader .logonav {
+  width: 1000px;
+  margin: 0 auto;
+  height: 78px;
+}
+header .inferiorheader .logonav .logo {
+  display: block;
+  float: left;
+}
+header .inferiorheader .logonav .menuprincipal {
+  float: right;
+  text-transform: uppercase;
+}
+header .inferiorheader .logonav .menuprincipal ul li {
+  float: left;
+}
+header .inferiorheader .logonav .menuprincipal ul li a {
+  color: #777777;
+  padding: 0 15px;
+}
+header .inferiorheader .logonav .menuprincipal ul li a.active {
+  color: #000;
+}
+header .inferiorheader .logonav .menuprincipal ul li.active:before {
+  content: '';
+  display: block;
+  border: 1px solid #b96539;
+  margin: 0 15px;
+}
+
+main .slider {
+  width: 100%;
+  height: 485px;
+  border-bottom: 1px solid #000;
+  background: #000;
+}
+main .slider ul li .contenidoslider {
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -330px;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 4px #333;
+}
+main .slider ul li .contenidoslider span.textoslider {
+  font-size: 50px;
+  font-family: montserratbold;
+  display: block;
+}
+main .slider ul li .contenidoslider span.leermas {
+  font-size: 14px;
+  display: block;
+}
+main .slider ul li .contenidoslider span.leermas a {
+  padding: 12px;
+  border: 1px solid #fff;
+  line-height: 70px;
+  font-family: montserratregular;
+}
+main .content {
+  width: 1000px;
+  margin: 0 auto;
+  height: 200px;
 }

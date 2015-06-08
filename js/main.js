@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
 	MyApp.Main.init();
-    if($(".clase").length > 0){
-        MyApp.seccion.modulo();
+    if($(".slider").length > 0){
+        MyApp.banner.slider();
     }
 });
 
@@ -12,8 +12,12 @@ var MyApp = {
         init : function() {
         }
     },
-    seccion : {
-        modulo : function() {
+    banner : {
+        slider : function() {
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: true
+            });
         }
     }
 }
