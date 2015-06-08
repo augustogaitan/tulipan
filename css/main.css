@@ -305,9 +305,14 @@ table {
   /* Sin bold en Mac. */
 }
 
+body {
+  background: #f7f5f2;
+}
+
 header {
   height: 113px;
   border: 1px solid #ccc;
+  background: #fff;
 }
 header .superiorheader {
   height: 35px;
@@ -363,6 +368,7 @@ header .inferiorheader .logonav {
   width: 1000px;
   margin: 0 auto;
   height: 78px;
+  background: #fff;
 }
 header .inferiorheader .logonav .logo {
   display: block;
@@ -424,5 +430,153 @@ main .slider ul li .contenidoslider span.leermas a {
 main .content {
   width: 1000px;
   margin: 0 auto;
-  height: 200px;
+  height: auto;
+}
+main .content aside.banners {
+  margin-bottom: -50px;
+  position: relative;
+  z-index: 50;
+}
+main .content aside.banners ul li {
+  float: left;
+  border: 6px solid #fff;
+  position: relative;
+}
+main .content aside.banners ul li span.bannoticia {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  width: 266px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-family: montserratregular;
+  font-size: 15px;
+}
+main .content aside.banners ul li span.not1 {
+  background-color: #6c615b;
+}
+main .content aside.banners ul li span.not2 {
+  background-color: #874f32;
+}
+main .content aside.banners ul li span.not3 {
+  background-color: #222222;
+}
+main .content aside.banners ul li span.bannoticia:before {
+  content: url("../images/content/left-baner.png");
+  margin-right: 5px;
+  margin-left: 10px;
+}
+main .content aside.banners ul li.central {
+  margin: 0 32px;
+}
+main .content section.seccion1 {
+  margin: 45px 0px 30px 0px;
+  float: left;
+}
+main .content section.seccion1 article.article1 {
+  width: 475px;
+  background: green;
+  height: 420px;
+  float: left;
+}
+main .content section.seccion1 article.article2 {
+  width: 228px;
+  background: red;
+  height: 420px;
+  float: left;
+  margin: 0 34px;
+}
+main .content section.seccion1 article.article3 {
+  width: 228px;
+  background: orange;
+  height: 420px;
+  float: left;
+}
+main .navsecundario {
+  width: 100%;
+  height: 120px;
+  float: left;
+  background: url("../images/content/fondo-menusecundario.png") repeat-x;
+}
+main .navsecundario .menusecundario {
+  width: 1000px;
+  margin: 0 auto;
+}
+main .content2 {
+  width: 1000px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+main .content2 section.seccion2 {
+  margin: 30px 0px 80px 0px;
+  height: 354px;
+  float: left;
+}
+main .content2 section.seccion2 article {
+  width: 311px;
+  background: green;
+  height: 353px;
+}
+main .content2 section.seccion2 .article1 {
+  background: red;
+  float: left;
+}
+main .content2 section.seccion2 .article2 {
+  background: red;
+  float: left;
+  margin: 0 33px;
+}
+main .content2 section.seccion2 .article3 {
+  background: red;
+  float: left;
+}
+
+footer {
+  height: 360px;
+  width: 100%;
+}
+footer .footerlist {
+  height: 315px;
+  background: url("../images/content/footerfondo.png") repeat-x;
+}
+footer .footerlist .contentlist {
+  width: 1000px;
+  margin: 0 auto;
+}
+footer .copyright {
+  height: 47px;
+  background: #2f2f2f;
+  line-height: 47px;
+}
+footer .copyright .contentcopy {
+  width: 1000px;
+  margin: 0 auto;
+}
+footer .copyright .contentcopy span.derechos {
+  float: left;
+  color: #fff;
+  font-family: pt_sansregular;
+  font-size: 14px;
+}
+footer .copyright .contentcopy span.sitemap {
+  float: right;
+}
+footer .copyright .contentcopy span.sitemap ul li {
+  float: left;
+}
+footer .copyright .contentcopy span.sitemap ul li a {
+  font-family: pt_sansregular;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 5px;
+}
+footer .copyright .contentcopy span.sitemap ul li a:after {
+  content: url("../images/content/linefooter.jpg");
+  width: 2px;
+  height: 13px;
+  position: relative;
+  right: -6px;
+  top: 4px;
 }

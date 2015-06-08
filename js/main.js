@@ -16,7 +16,12 @@ var MyApp = {
         slider : function() {
             $('.bxslider').bxSlider({
                 mode: 'fade',
-                captions: true
+                captions: true,
+               /* auto: true,
+                autoControls: true,*/
+                pager:false,
+                controls:false,
+                autoControls:false
             });
         }
     }
