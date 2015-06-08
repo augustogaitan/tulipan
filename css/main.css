@@ -498,10 +498,24 @@ main .navsecundario {
   height: 120px;
   float: left;
   background: url("../images/content/fondo-menusecundario.png") repeat-x;
+  line-height: 120px;
+  font-family: montserratregular;
+  font-size: 13px;
 }
 main .navsecundario .menusecundario {
   width: 1000px;
   margin: 0 auto;
+}
+main .navsecundario .menusecundario ul li {
+  float: left;
+}
+main .navsecundario .menusecundario ul li a {
+  padding: 0px 15px;
+}
+main .navsecundario .menusecundario ul li a:before {
+  content: url("../images/content/aspabien.png");
+  width: 21px;
+  height: 17px;
 }
 main .content2 {
   width: 1000px;

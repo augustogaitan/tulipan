@@ -209,9 +209,25 @@ main{
 		height: 120px;
 		float: left;
 		background: url('../images/content/fondo-menusecundario.png') repeat-x;
+		line-height: 120px;
+		font-family: $montserrat_regular;
+		font-size: 13px;
 		.menusecundario{
 			width: 1000px;
 			margin:0 auto;
+			ul{
+				li{
+					float: left;
+					a{
+						padding: 0px 15px;
+					}
+					a:before{
+						content:url('../images/content/aspabien.png');
+						width: 21px;
+						height: 17px;
+					}
+				}
+			}
 		}
 	}
 	.content2{
