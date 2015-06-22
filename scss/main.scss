@@ -5,6 +5,16 @@
 @import 'fuentes';
 @import 'ayudas';
 
+.alignleft{
+	float: left;
+}
+.alingright{
+	float: right;
+}
+.alingcenter{
+
+}
+
 body{
 	background: #f7f5f2;
 }
@@ -184,23 +194,119 @@ main{
 			float: left;
 
 			article.article1{
-				width: 475px;
-				background: green;
-				height: 420px;
+				width: 422px;
+				height: 373px;
 				float: left;
+				background: #fff;
+				padding: 24px 24px 24px 24px;
+				h2{
+					font-family: $montserrat_regular;
+					font-size: 17px;
+					color: #222222;
+					margin-bottom: 20px;
+				}
+				span.cuadro1{
+					border-top: 1px solid #ccc;
+					display: block;
+					height: 375px;
+					div.coluno{
+						float: left;
+						width: 222px;
+						margin-top: 20px;
+						img{
+							margin-bottom: 15px;
+						}
+					}
+					div.coldos{
+						float: left;
+						width: 200px;
+						font-size: 13px;
+						font-family: $ptsans_regular;
+						margin-top: 20px;
+						line-height: 17px;
+					}
+					span.leermas{
+						display: block;
+						padding: 10px;
+						border: 1px solid #ccc;
+						float: left;
+						margin-top: 15px;
+						font-size: 12px;
+						font-weight: bold;
+					}
+				}
+				span.cuadro1:before{
+					content: '';
+					border-top: 3px solid #b96539;
+					width: 37px;
+					height: 3px;
+					display: block;
+					position: relative;
+					top: -2px;
+				}
 			}
 			article.article2{
-				width: 228px;
-				background: red;
-				height: 420px;
+				width: 186px;
+				background: #fff;
+				height: 373px;
 				float: left;
 				margin:0 34px;
+				padding: 24px 24px 24px 24px;
+				h2{
+					font-family: $montserrat_regular;
+					font-size: 17px;
+					color: #222222;
+					margin-bottom: 20px;
+				}
+				span.cuadro2{
+					border-top: 1px solid #ccc;
+					display: block;
+					height: 375px;
+					font-size: 13px;
+					font-family: $ptsans_regular;
+					img{
+						margin:0px 5px 20px 0px;
+					}
+				} 
+				span.cuadro2:before{
+					content: '';
+					border-top: 3px solid #b96539;
+					width: 37px;
+					height: 3px;
+					display: block;
+					position: relative;
+					top: -2px;
+				}
 			}
 			article.article3{
-				width: 228px;
-				background: orange;
-				height: 420px;
+				width: 180px;
+				background: #fff;
+				height: 373px;
 				float: left;
+				padding: 24px 24px 24px 24px;
+				h2{
+					font-family: $montserrat_regular;
+					font-size: 17px;
+					color: #222222;
+					margin-bottom: 20px;
+				}
+				span.cuadro3{
+					border-top: 1px solid #ccc;
+					display: block;
+					height: 375px;
+					font-size: 13px;
+					font-family: $ptsans_regular;
+					line-height: 17px;
+				}
+				span.cuadro3:before{
+					content: '';
+					border-top: 3px solid #b96539;
+					width: 37px;
+					height: 3px;
+					display: block;
+					position: relative;
+					top: -2px;
+				}
 			}
 		}
 	}
@@ -236,26 +342,91 @@ main{
 		height: auto;
 		overflow: hidden;
 		section.seccion2{
-			margin:30px 0px 80px 0px;
-			height: 354px;
+			margin:30px 0px 30px 0px;
+			height: auto;
 			float: left;
 			article{
-				width: 311px;
-				background: green;
-				height: 353px;				
+				width: 263px;
+				height: 353px;
+				padding: 24px 24px 24px 24px;
+				background: #fff;
+				h2{
+					font-family: $montserrat_regular;
+					font-size: 17px;
+					color: #222222;
+					margin-bottom: 20px;
+				}
+				span.cuadro{
+					border-top: 1px solid #ccc;
+					display: block;
+					height: 375px;
+					font-size: 13px;
+					font-family: $ptsans_regular;
+					line-height: 17px;
+					img{
+						margin:0px 5px 20px 0px;
+					}
+				}
+				span.cuadro:before{
+					content: '';
+					border-top: 3px solid #b96539;
+					width: 37px;
+					height: 3px;
+					display: block;
+					position: relative;
+					top: -2px;
+				}
 			}
 			.article1{
-				background: red;
 				float: left;
+
 				}
-			.article2{
-				background: red;
+			section.redes{
 				float: left;
-				margin:0 33px;
+				height: 400px;
+				padding: 0px 24px 24px 24px;
+				.article2{
+					height: 275px;
+					span.cuadro{
+						border-top: 1px solid #ccc;
+						display: block;
+						font-size: 13px;
+						font-family: $ptsans_regular;
+						height: 65px!important;
+						img{
+							margin:0px 5px 15px 0px;
+						}
+					} 
+				}
+				article.redessociales{
+					margin:30px 0px 0px 0px;
+					height: 50px;
+					padding: 0px;
+					width: 310px;
+					ul{
+						li{
+							background: #fff;
+							height: 50px;
+							display: inline-block;
+							width: 59px;
+  							border-left: 2px solid #f7f5f2;
+							a{
+								display: block;
+								padding: 12px 0px 10px 11px;
+							}
+						}
+						li.bolg{
+							width: 110px;
+						}
+					}
+				}
+				
 			}
 			.article3{
-				background: red;
 				float: left;
+				h3{
+					clear: both;
+				}
 			}
 		}
 	}
@@ -263,12 +434,113 @@ main{
 footer{
 	height: 360px;
 	width: 100%;
+	.btnenviar{
+		width: 70px;
+		height: 23px;
+		background-color: red;
+		display: block;
+		position: absolute;
+		right: 17px;
+		top: 164px;
+		background: #b96539;
+		border: none;
+		color: #fff;
+	}
+	.newsleetercampo{
+		width: 125px;
+	}
 	.footerlist{
 		height: 315px;
 		background:url('../images/content/footerfondo.png')repeat-x;
+		color: #fff;
 		.contentlist{
 			width: 1000px;
 			margin:0 auto;
+				section.seccionfooter{
+				margin:30px 0px 80px 0px;
+				height: auto;
+				float: left;
+				article{
+					width: 192px;
+					height: 160px;
+					padding: 24px 24px 24px 10px;
+					margin: 0 5px;
+					h2{
+						font-family: $montserrat_regular;
+						font-size: 17px;
+						color: #fff;
+						margin-bottom: 20px;
+					}
+					span.cuadro{
+						border-top: 1px solid #ccc;
+						display: block;
+						height: auto;
+						font-size: 13px;
+						font-family: $ptsans_regular;
+						line-height: 17px;
+						img{
+							margin:0px 5px 20px 0px;
+						}
+					}
+					span.cuadro:before{
+						content: '';
+						border-top: 3px solid #b96539;
+						width: 37px;
+						height: 3px;
+						display: block;
+						position: relative;
+						top: -2px;
+					}
+				}
+				.article1{
+					float: left;
+					position: relative;
+					}
+				section.redes{
+					float: left;
+					height: 400px;
+					padding: 0px 24px 24px 24px;
+					.article2{
+						height: 275px;
+						.cuadro{
+							height: 200px;
+							font-size: 13px;
+							font-family: $ptsans_regular;
+							span.cuadro{
+
+							}
+						}
+					}
+					article.redessociales{
+						margin:30px 0px 0px 0px;
+						height: 50px;
+						padding: 0px;
+						width: 310px;
+						ul{
+							li{
+								background: #fff;
+								height: 50px;
+								display: inline-block;
+								width: 59px;
+	  							border-left: 2px solid #f7f5f2;
+								a{
+									display: block;
+								}
+							}
+							li.bolg{
+								width: 110px;
+							}
+						}
+					}
+					
+				}
+				.article3{
+					float: left;
+					img{
+						float: left!important;
+					}
+				}
+			}
 		}
 	}
 	.copyright{
